@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.whats{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1000;
+}
+
+.whats:hover{
+    color: #fff;
+}
+
+i{
+    margin-top: 14px;
+}
+
+body{
+    font-family: 'Google Sans';
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(30, 30, 30);
+    color: rgb(153, 153, 153);
+}
+
+.headerSite{
+    background-image: url(../images/ft_01.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+
+.menu{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+nav{
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    border-bottom: solid rgba(255,255,255,0) 1px;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    border-bottom: solid black 2px;
+    color: black;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#bemVindo{
+    margin-top: 200px;
+    font-size: 72px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: black;
+}
+
+#apresentacao{
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+}
+
+.contentSite, .contentSite3,  .contentSite5{
+    padding: 50px 0;
+}
+
+.contentSite3 img{
+    width: 350px;
+    height: 230px;
+    padding: 10px 0;
+}
+
+.contentSite h1, .contentSite3 h1, .contentSite5 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contentSite h5, h3, .contentSite3 h5, h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* [data-anime]{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 90px;
+    background-color: rgba(0, 0, 0, .2);
+} */
+
+.contentSite2{
+    background-image: url(../images/ft_05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px;
+    padding-bottom: 250px;
+    color: rgba(255,255,255,1);
+}
+
+.contentSite2 h1{
+    font-weight: bold;
+}
+
+.contentSite4{
+    background-image: url(../images/ft_07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px;
+    padding-bottom: 250px;
+    color: rgba(255,255,255,1);
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0 10px 0;
+    font-size: 18px;
+}
+
+.pessoa{
+    height: 100px;
+    width: 100px;
+    margin: 30px auto 10px auto;
+    display: block;
+    border-radius: 100px;
+}
+
+.icons{
+    width: 90px;
+    height: 90px;
+    margin: 20px auto;
+    display: block;
+    /* filter: contrast(0%) !important; */
+}
+
+.socialIcon{
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    display: block;
+    /* filter: contrast(100%); */
+}
+
+.socialIcon:hover{
+    filter: contrast(150%);
+}
+
+.lacunas{
+    padding: 0 0 50px 0;
+    background-color: rgb(30, 30, 30);
+}
+
+.lacunas input{
+    background-color: rgb(30, 30, 30);
+    padding: 25px 0 25px 10px;
+}
+
+form{
+    background-color: rgb(30, 30, 30);
+}
+
+.btn-outline{
+    background: rgba(0, 0, 0, 0);
+    border: solid rgb(153, 153, 153) 1px;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+
+.btn-outline:hover{
+    background: rgb(153, 153, 153);
+    color: rgb(30,30,30)
+}
+
+.contentSite6{
+    background: rgb(22, 22, 22) !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+
+  [data-anime="top"] {
+    transform: translate3d(0px, -50px, 0);
+}
+
+[data-anime="bottom"] {
+    transform: translate3d(0px, 50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
